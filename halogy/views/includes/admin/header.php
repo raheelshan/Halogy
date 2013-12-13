@@ -14,6 +14,9 @@
 	<script language="javascript" type="text/javascript" src="<?php echo $this->config->item('staticPath'); ?>/js/admin.js"></script>
 
 	<script language="JavaScript">			
+		function base_url(){
+			return '<?php echo base_url() ?>'
+		}
 		$(function(){
 			$('ul#menubar li').hover(
 				function() { $('ul', this).css('display', 'block').parent().addClass('hover'); },
