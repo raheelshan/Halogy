@@ -15,7 +15,7 @@
 
 	<script language="JavaScript">			
 		function base_url(){
-			return '<?php echo base_url() ?>'
+			return '<?php echo base_url() ?>' 
 		}
 		$(function(){
 			$('ul#menubar li').hover(
